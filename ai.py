@@ -6,7 +6,7 @@ from operator import itemgetter
 
 class ClaudeMF():
     def __init__(self,name="Bot",sys_prompt=""):
-        self.client = anthropic.Anthropic( api_key="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")
+        self.client = anthropic.Anthropic( api_key="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")
         self.sys_prompt = sys_prompt
     def __str__(self):
 
